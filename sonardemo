@@ -1,0 +1,10 @@
+pipeline{
+agent any
+  stages{
+   stage("sonar analysis"){
+        steps{
+            echo "sonar analysis has done"
+        }
+      }
+   }
+}
